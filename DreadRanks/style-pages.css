@@ -1,0 +1,68 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Poppins', sans-serif;
+}
+.wrapper {
+	width: 1170px;
+	margin: auto;
+}
+header {
+	background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(forest.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position:center;
+	position: relative;
+}
+.nav {
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.nav li {
+	display: inline-block;
+}
+.nav li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: poppins;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.nav li a:hover {
+	background: #fff;
+	color: #03C04A;
+}
+
+.page-text{
+	position: absolute;
+	width: 600px;
+	height: 300px;
+	margin: 20% 30%;
+	text-align: center;
+}
+.page-text h1 {
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 60px;
+}
+.page-text h1 span {
+	color: #03C04A;
+}
+
+.page-text h2 {
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 30px;
+}
+.page-text h2 span {
+	color: #03C04A;
+}
+
+
+}
