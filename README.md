@@ -25,4 +25,4 @@ This is hosted on a local XAMPP server using PhP and MySQL (with HTML5 and CSS f
 
 ## Video Demonstration
 
-[![Watch the video]] (https://github.com/sao5125/DREADRankedSitesAndUsers/blob/master/Video%20Demos/AccountCreationandRankSetting.mov)
+[![Watch the video]] (https://github.com/sao5125/DREADRankedSitesAndUsers/blob/master/Video%20Demos/AccountCreationandRankSetting.mov?raw=truev)
