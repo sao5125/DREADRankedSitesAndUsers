@@ -25,4 +25,5 @@ This is hosted on a local XAMPP server using PhP and MySQL (with HTML5 and CSS f
 
 ## Video Demonstrations
 
-### Account Creation and Setting Ranks: https://www.youtube.com/watch?v=wIV-UYa1gho
+#### Account Creation and Setting Ranks: https://www.youtube.com/watch?v=wIV-UYa1gho
+#### Login Access Demo (invalid sign in attempts): https://youtu.be/7JCuPXEV2vQ
