@@ -1,6 +1,6 @@
 # Dread Based Ranking of Sites and User Accounts
 A repository containing a practical implementation of research pertaining to log based alerts and site/user rankings.
-For more information on what the DREAD Severity Ranking Model is, please go to this site: https://www.eccouncil.org/cybersecurity-exchange/threat-intelligence/dread-threat-modeling-intro/#:~:text=The%20DREAD%20model%20enables%20analysts,overall%20severity%20of%20the%20risk![image](https://user-images.githubusercontent.com/110301707/182026438-50f2fbec-be8b-47fe-81a8-cb58a6f5ba8b.png)
+For more information on what the DREAD Severity Ranking Model is, please go to this site: https://www.eccouncil.org/cybersecurity-exchange/threat-intelligence/dread-threat-modeling-intro/#:~:text=The%20DREAD%20model%20enables%20analysts,overall%20severity%20of%20the%20risk! [image](https://user-images.githubusercontent.com/110301707/182026438-50f2fbec-be8b-47fe-81a8-cb58a6f5ba8b.png)
 
 ## The Basics
 
