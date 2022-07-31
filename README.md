@@ -16,5 +16,7 @@ This idea was formulated as a way to monitor access control violations on privle
 ## Tech Stack
 
 This is hosted on a local XAMPP server using PhP and MySQL (with HTML5 and CSS for styling)
+Email Functionality is implemented using PhPMailer
+Logs are written to a local text file
 
 
