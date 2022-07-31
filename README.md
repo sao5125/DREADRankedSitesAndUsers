@@ -24,3 +24,8 @@ This is hosted on a local XAMPP server using PhP and MySQL (with HTML5 and CSS f
 <img width="1061" alt="Screen Shot 2022-07-31 at 7 56 44 AM" src="https://user-images.githubusercontent.com/110301707/182027536-5a072955-d899-4bd6-9e64-a9f88099973f.png">
 
 ## Video Demonstration
+
+### Account Creations and Rank Setting
+
+![1393D982-976A-451E-8965-67046C40B074_1_102_o](https://user-images.githubusercontent.com/110301707/182027960-29f872ae-1923-4cd1-9f3b-36e6f27161eb.jpeg)
+
