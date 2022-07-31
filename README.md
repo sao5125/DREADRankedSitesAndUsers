@@ -24,3 +24,5 @@ This is hosted on a local XAMPP server using PhP and MySQL (with HTML5 and CSS f
 <img width="1061" alt="Screen Shot 2022-07-31 at 7 56 44 AM" src="https://user-images.githubusercontent.com/110301707/182027536-5a072955-d899-4bd6-9e64-a9f88099973f.png">
 
 ## Video Demonstration
+
+[![Watch the video]] (https://github.com/sao5125/DREADRankedSitesAndUsers/blob/master/Video%20Demos/AccountCreationandRankSetting.mov)
