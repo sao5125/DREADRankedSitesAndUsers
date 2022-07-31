@@ -25,4 +25,4 @@ This is hosted on a local XAMPP server using PhP and MySQL (with HTML5 and CSS f
 
 ## Video Demonstration
 
-[![Watch the video](https://img.youtube.com/vi/nTQUwghvy5Q/default.jpg)](https://www.youtube.com/watch?v=wIV-UYa1gho)
+[![Watch the video](https://github.com/sao5125/DREADRankedSitesAndUsers/blob/master/homepage-image.png)](https://www.youtube.com/watch?v=wIV-UYa1gho)
