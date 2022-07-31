@@ -18,8 +18,10 @@ function logger($log){
   date_default_timezone_set('America/Chicago');
   $time = date('m/d/y h:iA',time());
   $user = '';
-  if($_SESSION['myname']){
-    $user .= ' by user : ' . $_SESSION['myname'];
+  if($_SESSION['myid']){
+    $user .= 'by user : ' . $_SESSION['myid'];
+  } else {
+    $user .= 'by an unauthenticated user';
   }
   $contents = file_get_contents('log.txt');
   $contents .= "$ip\t$time\t$log\t$user\r\n";
@@ -38,14 +40,14 @@ function send_email_user($severity,$type){
    $mail->SMTPDebug = 0;  // debugging: 1 = errors and messages, 2 = messages only
    $mail->SMTPAuth = true;  // authentication enabled
    $mail->SMTPSecure = 'ssl'; // secure transfer enabled REQUIRED for Gmail
-   $mail->Host = 
-   $mail->Port =
-   $mail->Username =
-   $mail->Password =;
+   $mail->Host = 'your email host';
+   $mail->Port = 'your port';
+   $mail->Username = 'your system admin user';
+   $mail->Password = 'your system admin password';
    $mail->SetFrom($from, $from_name);
    $mail->Subject = $subject;
    $mail->Body = $body;
-   $mail->AddAddress('researchemailt1@gmail.com');
+   $mail->AddAddress('your address');
    $file_to_attach = './log.txt';
 
    $mail->AddAttachment( $file_to_attach , 'log.txt' );

@@ -28,18 +28,23 @@ $error = "";
           $_SESSION['myrank'] = $data[0]['rank'];
         } else {
           $error = "incorrect username or password";
+          //query if user exists with that email
+          $query = "select * from users where email= :email";
+          $stm = $DB->prepare($query);
+          if($stm){
+            $newarr['email'] = $_POST['email'];
+            $success = $stm->execute($newarr);
+            $data = $stm->fetchAll(PDO::FETCH_ASSOC);
+            if(is_array($data) && count($data) > 0){
+              $log = "WARNING: Incorrect Password Entered for user: " . $data[0]['user_id'] . " of rank "
+              . $data[0]['rank'];
+              logger($log);
+              if ($data[0]['rank'] >= 7){ //number can be customized
+                send_email_user($data[0]['rank'],'Account');
+              }
+            }
 
-          if($arr['email'] == "critical@example.com"){
-            $log = "WARNING: Critical Account Access !";
-            logger($log);
-            send_email_user(10,'Account');
           }
-          if($arr['email'] == "highrisk@example.com"){
-            $log = "WARNING: High Risk Account Access !";
-            logger($log);
-            send_email_user(7,'Account');
-          }
-
         }
       }
 

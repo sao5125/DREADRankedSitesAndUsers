@@ -13,7 +13,8 @@ include "header.php";
 
   <div class="page-text">
       <h1>This is the  <span>Homepage</span></h1>
-      <h2> Welcome, <?php echo $_SESSION['myname'];?></h2>
+
+      <h2> Welcome <?php echo $_SESSION['myname'];?></h2>
   </div>
 </body>
 </html>

@@ -9,18 +9,11 @@ include 'includes.php';
 
 */
 function site_rank($sr){
-  if($sr == 10){
-    $log = "WARNING! Invalid Access to Critical page!\n";
+  if($sr >= 7){ //can be customized
+    $log = "WARNING! Invalid Access to Site of Severity Rank: ". $sr;
     logger($log);
     send_email_user($sr,'Site');
   }
-  if($sr == 7){
-    $log = "WARNING! Invalid Access to High Risk page!\n";
-    logger($log);
-    send_email_user($sr,'Site');
-  }
-
-
 }
 
 ?>
