@@ -27,4 +27,4 @@ This is hosted on a local XAMPP server using PhP and MySQL (with HTML5 and CSS f
 
 #### Account Creation and Setting Ranks: https://www.youtube.com/watch?v=wIV-UYa1gho
 #### Login Access Control/Monitoring Demo (invalid sign in attempts): https://www.youtube.com/watch?v=7JCuPXEV2vQ
-#### Site Access Control/Monitoring Demo: 
+#### Site Access Control/Monitoring Demo: https://www.youtube.com/watch?v=vDXC-JiEuNc
